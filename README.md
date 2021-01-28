@@ -1,0 +1,1 @@
+For my course pre-work for the coding bootcamp that I'm starting next week, I had to make a 'Rock, Paper Scissors' game with HTML and JavaScript.  Having done this, I now want to see if I can turn it into 'Rock, Paper, Scissors, Lizard, Spock' (as made famous by The Big Bang Theory), and add some CSS to make it easier on the eye.
