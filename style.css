@@ -43,6 +43,8 @@ button:hover {
 
 div {
   margin: auto 200px auto 200px;
+  display: block;
+  width: 80%;
 }
 
 a {
@@ -51,9 +53,7 @@ a {
   font-weight: 900;
   font-style: italic;
   font-size: 30px;
-  text-align: justify;
-  margin: auto;
-  display: inline;
+  text-align: center;
 }
 
 a:hover {
@@ -62,5 +62,7 @@ a:hover {
 }
 
 footer {
-  margin: 200px 500px 10px;
+  margin: 100px auto 60px;
+  display: block;
+  width: 30%;
 }
