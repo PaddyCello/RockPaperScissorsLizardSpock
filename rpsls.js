@@ -14,6 +14,7 @@ document.getElementById('lizard').addEventListener("click", pickLizard);
 document.getElementById('spock').addEventListener("click", pickSpock);
 
 function pickRock() {
+  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[0];
   computerChooses();
 
@@ -32,6 +33,7 @@ function pickRock() {
 };
 
 function pickPaper() {
+  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[1];
   computerChooses();
    
@@ -49,6 +51,7 @@ function pickPaper() {
   hOne.appendChild(hTwo);
 };
 function pickScissors() {
+  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[2];
   computerChooses();
 
@@ -67,6 +70,7 @@ function pickScissors() {
 };
 
 function pickLizard() {
+  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[3];
   computerChooses();
 
@@ -85,6 +89,7 @@ function pickLizard() {
 };
 
 function pickSpock() {
+  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[4];
   computerChooses();
 
