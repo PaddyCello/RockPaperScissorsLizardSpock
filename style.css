@@ -1,0 +1,46 @@
+body {
+  background-image: url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg');
+  background-size: cover;
+}
+
+h1 {
+  color: #ffD700;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 90px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffD700;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+}
+
+button {
+  display: inline;
+  align-items: center;
+  background-color: #800000;
+  color: #ffD700;
+  height: 50px;
+  width: 150px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  height: 55px;
+  width: 165px;
+}
+
+div {
+  margin: auto 200px auto 200px;
+}
