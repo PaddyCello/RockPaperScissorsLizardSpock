@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg');
   background-size: cover;
 }
 
@@ -13,9 +13,9 @@ h1 {
 }
 
 h2 {
-  color: #ffD700;
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight: 900;
+  color: #c0c0c0;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 100;
   font-style: italic;
   font-size: 70px;
   text-align: center;

@@ -1,7 +1,7 @@
 const options = ["rock", "paper", "scissors", "lizard", "Spock"];
 let playerChoice = "";
 let computerChoice = "";
-const spock = "url('https://www.startrek.com/sites/default/files/styles/1200x628/public/images/2019-07/8b10a9280bd46b8874af9b5cadec91d5.jpg?itok=iCDluTt7')";
+const spock = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('https://www.startrek.com/sites/default/files/styles/1200x628/public/images/2019-07/8b10a9280bd46b8874af9b5cadec91d5.jpg?itok=iCDluTt7')";
 
 function computerChooses() {
   computerChoice = options[Math.floor(Math.random()*5)]
@@ -14,7 +14,7 @@ document.getElementById('lizard').addEventListener("click", pickLizard);
 document.getElementById('spock').addEventListener("click", pickSpock);
 
 function pickRock() {
-  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
+  document.querySelector('body').style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[0];
   computerChooses();
 
@@ -33,7 +33,7 @@ function pickRock() {
 };
 
 function pickPaper() {
-  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
+  document.querySelector('body').style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[1];
   computerChooses();
    
@@ -51,7 +51,7 @@ function pickPaper() {
   hOne.appendChild(hTwo);
 };
 function pickScissors() {
-  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
+  document.querySelector('body').style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[2];
   computerChooses();
 
@@ -70,7 +70,7 @@ function pickScissors() {
 };
 
 function pickLizard() {
-  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
+  document.querySelector('body').style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[3];
   computerChooses();
 
@@ -89,7 +89,7 @@ function pickLizard() {
 };
 
 function pickSpock() {
-  document.querySelector('body').style.backgroundImage = "url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
+  document.querySelector('body').style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('https://miro.medium.com/max/4514/1*eyuCr9KOhADGM7V4-4Mt8Q.jpeg')";
   playerChoice = options[4];
   computerChooses();
 
