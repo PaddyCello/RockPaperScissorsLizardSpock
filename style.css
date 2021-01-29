@@ -44,3 +44,23 @@ button:hover {
 div {
   margin: auto 200px auto 200px;
 }
+
+a {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 30px;
+  text-align: justify;
+  margin: auto;
+  display: inline;
+}
+
+a:hover {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+footer {
+  margin: 200px 500px 10px;
+}
