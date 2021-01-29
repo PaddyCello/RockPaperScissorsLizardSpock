@@ -10,7 +10,7 @@ document.getElementById('rock').addEventListener("click", pickRock);
 document.getElementById('paper').addEventListener("click", pickPaper);
 document.getElementById('scissors').addEventListener("click", pickScissors);
 document.getElementById('lizard').addEventListener("click", pickLizard);
-//document.getElementById('spock').addEventListener("click", pickScalpellus);
+document.getElementById('spock').addEventListener("click", pickSpock);
 
 function pickRock() {
   playerChoice = options[0];
@@ -79,6 +79,24 @@ function pickLizard() {
     hTwo.innerText = `The computer wins! The computer chose ${options[2]} and the player chose ${options[3]}.`;
   } else {
     hTwo.innerText = `The player wins! The computer chose ${options[4]} and the player chose ${options[3]}.`;
+  };
+  hOne.appendChild(hTwo);
+};
+
+function pickSpock() {
+  playerChoice = options[4];
+  computerChooses();
+
+  if (computerChoice === options[0]) {
+    hTwo.innerText = `The player wins! The computer chose ${options[0]} and the player chose ${options[4]}.`;
+  } else if (computerChoice === options[1]) {
+    hTwo.innerText = `The computer wins! The computer chose ${options[1]} and the player chose ${options[4]}.`;
+  } else if (computerChoice === options[2]) {
+    hTwo.innerText = `The player wins! The computer chose ${options[0]} and the player chose ${options[4]}.`;
+  } else if (computerChoice === options[3]) {
+    hTwo.innerText = `The computer wins! The computer chose ${options[3]} and the player chose ${options[4]}.`;
+  } else {
+    hTwo.innerText = `It is a tie! Computer and player both chose ${computerChoice}.`;
   };
   hOne.appendChild(hTwo);
 };
