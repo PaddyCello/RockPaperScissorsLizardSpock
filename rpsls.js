@@ -1,6 +1,7 @@
 const options = ["rock", "paper", "scissors", "lizard", "Spock"];
 let playerChoice = "";
 let computerChoice = "";
+const spock = "url('https://www.startrek.com/sites/default/files/styles/1200x628/public/images/2019-07/8b10a9280bd46b8874af9b5cadec91d5.jpg?itok=iCDluTt7')";
 
 function computerChooses() {
   computerChoice = options[Math.floor(Math.random()*5)]
@@ -97,6 +98,7 @@ function pickSpock() {
     hTwo.innerText = `The computer wins! The computer chose ${options[3]} and the player chose ${options[4]}.`;
   } else {
     hTwo.innerText = `It is a tie! Computer and player both chose ${computerChoice}.`;
+    document.querySelector('body').style.backgroundImage = spock;
   };
   hOne.appendChild(hTwo);
 };
